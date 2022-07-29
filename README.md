@@ -1,5 +1,5 @@
 # Versions
-* 0.0.1 - Version compatible with CommonJS and Modules. Compatible with TypeScript, Frontend and Backend (Node)
+* 0.0.2 - Version compatible with CommonJS and Modules. Compatible with TypeScript, Frontend and Backend (Node)
 
 # Description
 
@@ -11,19 +11,19 @@ The module makes use of axios' interceptors to log the request as a cURL command
 
 # How to use it
 
-curl-in-axios is super easy to use. First you'll have to install it.
+curl-for-axios is super easy to use. First you'll have to install it.
 
 ```shell
-npm i curl-in-axios
+npm i curl-for-axios
 ```
 
-Then all you have to do is import and instanciate curl-in-axios in your app. Here's a sample:
+Then all you have to do is import and instanciate curl-for-axios in your app. Here's a sample:
 
 ```javascript
-import axios from 'axios';
-import curl from 'curl-in-axios';
+import axios from "axios";
+import curl from "curl-for-axios";
 
-// initializing curl-in-axios with your axios instance
+// initializing curl-for-axios with your axios instance
 curl(axios);
 
 axios.post("http://localhost:3000/", { dummy: "data-post" })
