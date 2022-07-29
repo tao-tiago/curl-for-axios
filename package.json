@@ -1,0 +1,52 @@
+{
+  "name": "curl-for-axios",
+  "version": "0.0.1",
+  "description": "Package for using axios with curl",
+  "main": "dist/main.js",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "scripts": {
+    "dev": "ts-node test/appTest.ts",
+    "test": "jest --no-cache",
+    "test:coverage": "jest --no-cache --coverage",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tao-tiago/curl-for-axios.git"
+  },
+  "keywords": [
+    "axios",
+    "curl",
+    "request",
+    "logger"
+  ],
+  "author": "tao-tiago",
+  "contributors": [
+    {
+      "name": "Tiago Pires",
+      "url": "https://github.com/tao-tiago"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tao-tiago/curl-for-axios/issues"
+  },
+  "homepage": "https://github.com/tao-tiago/curl-for-axios#readme",
+  "dependencies": {
+    "axios": "^0.27.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^28.1.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.4",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
